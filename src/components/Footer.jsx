@@ -1,10 +1,9 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://github.com/michaelwpwenas", icon: <FaGithub /> },
+  { href: "https://www.linkedin.com/in/michael-wenas-2a83522b6/", icon: <FaLinkedin /> },
+  { href: "https://www.michaelwenas.biz.id", icon: <FaHome /> },
 ];
 
 const Footer = () => {
@@ -12,7 +11,7 @@ const Footer = () => {
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
-          ©Nova 2024. All rights reserved
+          © Michael W.P. Wenas. All rights reserved
         </p>
 
         <div className="flex justify-center gap-4  md:justify-start">
@@ -30,10 +29,10 @@ const Footer = () => {
         </div>
 
         <a
-          href="#privacy-policy"
+          href="mailto:michaelwenas@programmer.net"
           className="text-center text-sm font-light hover:underline md:text-right"
         >
-          Privacy Policy
+          EMAIL ME
         </a>
       </div>
     </footer>
